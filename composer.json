@@ -1,0 +1,13 @@
+{
+  "name": "yesgooo/dynamic-database-manager",
+  "type": "library",
+  "license": "MIT",
+  "description": "Webman plugin yesgooo/dynamic-database-manager",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Yesgooo\\DynamicDatabaseManager\\": "src"
+    }
+  }
+}
