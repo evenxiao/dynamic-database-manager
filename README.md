@@ -12,6 +12,8 @@
 1.  composer require yesgooo/dynamic-database-manager
 2.  打开配置config/plugin/yesgooo/dynamic-database-manager/conf.php，并配置数据库接信息
 例如：
+
+```
 return [
     'flag' => 'companyId', //切换标识
     'method' => 'header', //标识传送方法 支持header,get,post
@@ -25,6 +27,8 @@ return [
     'password'    => envs('DB_PASSWORD','root'),
 
 ];
+```
+
 
 3.  根据切换标识，发起请求，查看数据查询是否走到对应的数据库链接
 
